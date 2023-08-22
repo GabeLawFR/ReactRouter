@@ -1,0 +1,132 @@
+* {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin: 0;
+}
+
+body,
+body > div {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(66, 66, 66);
+}
+
+#container {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+#container > div {
+  display: flex;
+  border-radius: 5px;
+  margin-bottom: 1em;
+}
+
+.title {
+  margin-bottom: 1em;
+  background-color: bisque;
+  padding: 10px;
+  border-radius: 5px;
+  justify-content: center;
+}
+
+#navbar {
+  width: 100%;
+  background-color: rgb(236, 119, 10);
+  padding: 15px 10px;
+  justify-content: space-evenly;
+  margin-bottom: 1em;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.links {
+  text-decoration: none;
+  text-decoration: underline;
+  color: cornsilk;
+  font-size: 30px;
+}
+
+.links:hover {
+  color: rgb(0, 0, 0);
+  transition: 0.4s;
+}
+
+#footer {
+  width: 100%;
+  background-color: rgb(33, 11, 118);
+  padding: 15px 10px;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  box-sizing: border-box;
+}
+
+.footer-links {
+  text-decoration: none;
+  text-decoration: underline;
+  color: cornsilk;
+  font-size: 15px;
+  margin: 0 10px;
+}
+
+.footer-links:hover {
+  color: rgb(145, 13, 136);
+  transition: 0.4s;
+}
+
+
+#main-section {
+  flex-grow: 1;
+}
+
+#main-section > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(19, 81, 6);
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  height: 100%;
+}
+
+.hint {
+  text-shadow: 1px 1px 1px black;
+}
+
+.sub-text {
+  color: aliceblue;
+  font-size: larger;
+  margin-bottom: 0.5em;
+}
+
+.red {
+  background-color: #b05f6d;
+  color: white;
+}
+
+.blue {
+  background-color: #275db3;
+  color: white;
+}
+
+.yellow {
+  background-color: rgb(255, 213, 0);
+  color: white;
+}
+
+.purple {
+  background-color: #410b78;
+  color: white;
+}
+
